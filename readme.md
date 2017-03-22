@@ -9,10 +9,10 @@ The original paper is [Learning a Deep Convolutional Network for Image Super-Res
 
 My implementation have some difference with the original paper, include:
 
-* use ['he_normal'](https://keras.io/initializations/) for weight initialization
 * use Adam alghorithm for optimization, with learning rate 0.0003 for all layers.
-* I use the opencv library to produce the training data 
+* Use the opencv library to produce the training data and test data, not the matlab library. This difference may caused some deteriorate on the final results.
 * I did not set different learning rate in different layer, but I found this network still work.
+* The color space of YCrCb in Matlab and OpenCV also have some difference. So if you want to compare your results with some academic paper, you may want to use the code written with matlab.
 
 ## Use:
 ### Create your own data
