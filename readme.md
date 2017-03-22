@@ -26,10 +26,10 @@ Excute:
 `python main.py`
 
 
-## Result(training for 200 epoches, with upscaling factor 2):
-Origin Image:
+## Result(training for 200 epoches on 91 images, with upscaling factor 2):
+Results on Set5 dataset:
 <p align="center">
-  <img src="https://github.com/MarkPrecursor/SRCNN-keras/blob/master/result.jpg" width="800"/>
+  <img src="https://github.com/MarkPrecursor/SRCNN-keras/blob/master/result.png" width="800"/>
 </p>
 
 
